@@ -17,9 +17,6 @@ Alignment is learned with a diagonal InfoNCE contrastive loss.
 ## Project Files
 
 - `vlm2vec_mnist_alignment.ipynb`: main notebook with the complete pipeline
-- `vlm2vec_mnist_alignment copy.ipynb`: notebook copy/variant
-- `ProjectPaper.pdf`: supporting report/document
-- `llava_architecture.jpg`: architecture figure
 
 ## What the Notebook Does
 
@@ -50,7 +47,7 @@ $$W = W_0 + \frac{\alpha}{r} BA$$
 ## Requirements
 
 - Python 3.10+
-- CUDA-capable GPU recommended (for example NVIDIA T4 16GB)
+- CUDA-capable GPU recommended (16GB)
 - Enough disk to cache model checkpoints and MNIST
 
 Notebook installs these packages when run:
@@ -75,10 +72,3 @@ Notebook installs these packages when run:
 - The notebook is configured for a short demonstration run (`NUM_STEPS = 5`) but can be increased.
 - Image augmentation is applied during training to reduce overfitting.
 - Horizontal flip is intentionally avoided because it can alter digit identity (for example `6` vs `9`).
-
-## Possible Next Improvements
-
-- Increase training steps and tune temperature / learning rate.
-- Use more than one image per digit for stronger generalization.
-- Add a validation split and checkpoint saving.
-- Export embeddings and evaluate with retrieval metrics beyond Recall@1.
