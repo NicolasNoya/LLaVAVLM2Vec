@@ -14,8 +14,6 @@ Authors: Francisco Nicolas Noya, Pablo Gomez
 [![PEFT](https://img.shields.io/badge/PEFT-2E2E2E?logo=python&logoColor=white)](https://github.com/huggingface/peft)
 [![Torchvision](https://img.shields.io/badge/Torchvision-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/vision/stable/index.html)
 [![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes-5B5B5B?logo=nvidia&logoColor=76B900)](https://github.com/TimDettmers/bitsandbytes)
-[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)](https://matplotlib.org/)
 
 ## Overview
 
