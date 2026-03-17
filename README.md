@@ -4,6 +4,19 @@ A proof-of-concept project inspired by VLM2Vec.
 
 Authors: Francisco Nicolas Noya, Pablo Gomez
 
+## Technologies
+
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF9D00?logo=huggingface&logoColor=white)](https://huggingface.co/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+[![Transformers](https://img.shields.io/badge/Transformers-FFD21E?logo=huggingface&logoColor=black)](https://github.com/huggingface/transformers)
+[![PEFT](https://img.shields.io/badge/PEFT-2E2E2E?logo=python&logoColor=white)](https://github.com/huggingface/peft)
+[![Torchvision](https://img.shields.io/badge/Torchvision-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/vision/stable/index.html)
+[![BitsAndBytes](https://img.shields.io/badge/BitsAndBytes-5B5B5B?logo=nvidia&logoColor=76B900)](https://github.com/TimDettmers/bitsandbytes)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=plotly&logoColor=white)](https://matplotlib.org/)
+
 ## Overview
 
 This project fine-tunes a vision-language model so text embeddings such as "The number 8" are close to the embedding of the MNIST image of digit `8`, and far from other digits.
