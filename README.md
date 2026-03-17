@@ -4,8 +4,6 @@ A proof-of-concept project inspired by VLM2Vec.
 
 Authors: Francisco Nicolas Noya, Pablo Gomez
 
-## Technologies
-
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FF9D00?logo=huggingface&logoColor=white)](https://huggingface.co/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
